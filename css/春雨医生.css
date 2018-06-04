@@ -1,0 +1,309 @@
+html,body,ul,li{
+	padding:0;
+	margin:0;
+}
+html,body {
+    font-size: 62.5%;
+}
+body{
+	overflow-x:hidden;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.download-bar{
+	width:105%;
+	height:4rem;
+	background-color:#656565;
+	color:#fff;
+}
+.download-bar img{
+	width:2.2rem;
+	height:2.2rem;
+	padding-top:1.1rem;
+}
+.download-bar img.cha{
+	padding-left: 2rem;
+}
+.download-bar img.chuyu-logo{
+	padding-left: 0.5rem;
+}
+.download-bar span{
+	vertical-align: 0.7rem;
+	display:inline-block;
+	padding-left: 0.5rem;
+	font-size: 1.5rem;
+}
+.download-bar a{
+	float: right;
+	text-align: center;
+    background-color: #37cf6b;
+    width:8rem;
+    height:4rem;
+    line-height: 4rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.header-top{
+	width:105%;
+	height:6rem;
+	position: relative;
+	text-align: center;
+}
+.header-top img.chunyuyisheng{
+	width:13rem;
+	height:2.5rem;
+	padding-top:2rem;
+}
+.header-top img.people{
+	float:right;
+	width:3rem;
+	height:3rem;
+	position: absolute;
+	right: 2.5rem;
+    top: 1.5rem;
+}
+.search{
+	width:100%;
+	height:4.6rem;
+	border-top:1px solid #f4f4f4;
+	border-bottom:1px solid #f4f4f4;
+	padding-left:1.7rem;
+}
+form{
+	height:2.8rem;
+	background-color: #f4f4f4;
+	border-radius: 5px;
+	margin:1rem auto;
+}
+form input{
+	height:2.8rem;
+	background-color: #f4f4f4;
+	outline: none;
+	border:0;
+	float:left;
+	font-size: 16px;
+}
+form img{
+	float:right;
+	width:2rem;
+	height:2rem;
+	padding:0.4rem 0.5rem;
+}
+.ask{
+	width:100%;
+	height:9rem;
+	border-bottom: 1px solid #f4f4f4;
+	background-image: url("../image/free.png");
+	background-repeat: no-repeat;
+	background-position: 2.5rem 1.5rem;
+	padding-left: 1.5rem;
+}
+.clearfix::after{
+	clear:both;
+	height:0;
+	content:"";
+	display:block;
+}
+.ask ul{
+	position: relative;
+	top:1.5rem;
+	left:11rem;
+}
+.ask ul li.quick{
+	color: #323232;
+	font-size: 25px;
+	font-weight: 400;
+	padding-bottom: 1.5rem;
+}
+.ask ul li.consult{
+	color: #999;
+	font-size: 12px;
+}
+.ask span{
+	float:right;
+}
+.ask span img{
+	width:0.6rem;
+	height:1rem;
+	position: relative;
+    top: -2.5rem;
+    right: 2rem;
+}
+.find{
+	width:100%;
+	height:7rem;
+	border-bottom:1px solid #f4f4f4;
+	text-align: center;
+}
+.find ul li.find-child{
+	background-position-x: center;
+	background-position-y:1rem;
+	background-repeat: no-repeat;
+	color:#666;
+	font-size: 1.5rem;
+	padding:1.5rem 1rem;
+	float:left;
+}
+.find ul li.disease{
+	width:46%;
+	background-image: url("../image/disease.png");
+	background-size: 3rem;
+	border-right: 1px solid #f4f4f4;
+}
+.find ul li.hospital{
+	width:40%;
+	background-image: url("../image/hospital.png");
+	background-size: 3.5rem;
+}
+.find ul li p{
+	position: relative;
+    top: 2rem;
+}
+.pic{
+	height: 9rem;
+	width: 102%;
+	text-align: center;
+	padding-left:0.7rem;
+}
+.swiper-container{
+	height:9rem;
+	width: 38rem;
+	position: relative;
+	overflow: hidden;
+	/*text-align: center;*/
+}
+.swiper-wrapper{
+	/*width:480rem;*/
+	height:9rem;
+	text-align: center;
+	/*top:-0.9rem;*/
+	margin:0 auto;
+	/*overflow: hidden;*/
+}
+.swiper-wrapper .swiper-slide img{
+	width:38rem;
+	height:9rem;
+	/*float:left;*/
+	/*background-size: cover;*/
+}
+.hot{
+	width:100%;
+	height:3.5rem;
+	line-height: 3.5rem;
+	padding-left:2rem;
+}
+.hot span{
+	font-size: 1.6rem;
+}
+.hot img{
+	width:3rem;
+	height:1rem;
+	position: relative;
+	top:-0.5rem;
+}
+.more{
+	float:right;
+	padding-right:2rem;
+}
+.more span{
+	font-size: 1.4rem;
+	color:#999;
+	padding-right: 0.5rem;
+}
+.more img{
+	width:0.6rem;
+	height:1rem;
+	position: relative;
+	top:0.1rem;
+}
+.ask-list{
+	width:105%;
+	height:5.4rem;
+	border-bottom: 1px solid #f4f4f4;
+	margin-top:1rem;
+	padding-left:2rem;
+}
+.ask-list span.wen{
+	background-color:#ffa800;
+	color:#fff;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.5rem;
+	padding:0.2rem 0.3rem;
+}
+.ask-list span.question{
+	color: #323232;
+	font-size: 1.5rem;
+}
+.ask-list p{
+	margin-left: 2rem;
+}
+.line{
+	border-top:10px solid #f4f4f4;
+	width:105%;
+}
+.disease-list{
+	height: 14rem;
+    padding-left: 2rem;
+}
+.disease-list ul li{
+	float:left;
+	text-align: center;
+	border: 1px solid #e7e7e7;
+	padding: 0.5rem 0.5rem;
+    margin: 0.8rem 0.5rem;
+}
+.disease-list ul li a{
+	color:#666;
+	font-size: 1.5rem;
+}
+.health-list{
+	height:11.5rem;
+	border-bottom: 1px solid #f4f4f4;
+	padding-left: 2rem;
+}
+.health-list img{
+	margin-top: 2rem;
+	height:7.5rem;
+}
+.content{
+	position: relative;
+	top:-7rem;
+	left:8.5rem;
+}
+.content span{
+	position: absolute;
+	top:-1rem;
+	color: #323232;
+	font-size: 1.5rem;
+}
+.content p{
+	position: absolute;
+	top:5.5rem;
+	color: #999;
+	font-size:1.2rem;
+	margin:0 1rem;
+}
+.content p.time{
+	left:5.5rem;
+}
+.footer{
+	height:10.5rem;
+	background-color:#3a3a3b;
+	color: #9b9b9b;
+    font-size: 12px;
+    text-align: center;
+}
+.footer img{
+	width:9rem;
+	height:2rem;
+	margin-top: 2rem;
+}
+.footer p{
+	line-height: 1.2;
+	color: #9b9b9b;
+}
